@@ -88,4 +88,6 @@ section{
     top: 50%; 
     right: 3%;
     display: flex;
+    flex-direction: column;
+    transform: translateY(-50%);
 }
