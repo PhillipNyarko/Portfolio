@@ -18,6 +18,7 @@
     --color-grey-5: #2a2e35;
     --color-grey-6: #12181b;
     --br-sm-2: 14px;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,.3)
 }
 
 body{
@@ -92,11 +93,29 @@ section{
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
+    .active-btn{
+        background-color: var(--color-secondary) !important;
+        transition: all .4s ease-in-out;
+        i{
+            color: var(--color-white) !important
+        }
+    }
     .control{
-        padding: 1rem;
+        padding: 1rem; // maybe can be used to decrease the size of the round boarders on the icons?
         cursor: pointer;
         background-color: var(--color-grey-4);
         width: 55px;
         height: 55px;
+        border-radius: 50%; //how rounded do you want the boarders of the icons to be
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .7rem 0;
+        box-shadow: var(--box-shadow-1);
+        i{
+            font-size: 1.2rem;
+            color: var(--color-grey-2);
+            pointer-events: none
+        }
     }
 }
