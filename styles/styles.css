@@ -19,8 +19,7 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3)
-;
+  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
 body {
@@ -51,12 +50,12 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3rem 18r;
+  padding: 3rem 18rem;
 }
 
 .section {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -webkit-transform: translateY(-100%) scale(0);
+          transform: translateY(-100%) scale(0);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   background-color: var(--color-primary);
