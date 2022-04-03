@@ -251,5 +251,18 @@ section {
   padding-right: 18rem;
 }
 
+.header-content .right-header .name {
+  font-size: 3rem;
+}
+
+.header-content .right-header .name span {
+  color: var(--color-secondary);
+}
+
+.header-content .right-header p {
+  margin: 1.5rem 0;
+  line-height: 2rem;
+}
+
 /*independent components*/
 /*# sourceMappingURL=styles.css.map */
